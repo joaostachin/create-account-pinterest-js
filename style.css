@@ -1,0 +1,165 @@
+body {
+    margin: 0;   
+    overflow: auto; 
+    font-family: 'Lato', sans-serif;
+
+    background: #FFFFFF url("./bg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;    
+}
+
+div.sidebar {
+    align-items: center;
+    left: 50%; 
+    top: 50%; 
+    position: absolute; 
+    transform: translate(-50%, -50%);
+    background-color: #ffff;
+    
+    border-radius: 8px;
+    width: 500px;
+    height: 720px;
+}
+
+div.sidebar imgc{
+    width: 70px;
+    padding-left: 44%;
+    padding-top: 24px;  
+}
+
+div.sidebar h3 {
+    text-align: center;
+    color: rgb(51, 51, 51); 
+    font-size: 36px; 
+    font-weight: 600; 
+    -webkit-font-smoothing: antialiased; 
+    letter-spacing: -1.2px; 
+    word-break: break-word;
+    font-family: 'Lato', sans-serif;
+    margin: 24px;   
+}
+
+div.sidebar .paragraph1 p {
+    text-align: center;
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    font-weight: normal;
+    margin: -15px 12px 32px;
+    padding-bottom: 12px;
+    font-family: 'Lato', sans-serif;
+}
+
+div.sidebar form {
+    color: rgb(255, 0, 0);
+    font-size: 12px; 
+    align-items: center;  
+    text-align: center;   
+}
+
+div.sidebar form input {
+    font-size: 18px;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 4px;
+    border-radius: 16px;
+
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 2px rgba(122, 121, 121, 0.295) solid;
+
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+div.sidebar form input:hover {
+    border: #7FC1FF solid ;
+    border-width: 6px;
+
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+div.sidebar .btnSubtmit input{
+    font-size: 18px;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 12px;
+    border-radius: 24px;
+    padding-left: 104px;
+    padding-right: 104px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 3px rgba(122, 121, 121, 0.295) solid ;
+    font-weight: bolder;
+    background: #E60023;
+    color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+
+div.sidebar .textOr h4 {
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif;
+}
+
+div.sidebar .btnContinue input{
+    font-size: 18px;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 12px;
+    border-radius: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 3px rgba(122, 121, 121, 0.295) solid ;
+    font-weight: bolder;
+    background: #1877F2;
+    color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+
+div.sidebar .textEnd1 p {
+    padding-left: 112px;
+    padding-right: 112px;
+    font-size: 12px;
+    margin: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+div.sidebar .textEnd2 p {
+    padding: 6px;
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+}
+
+div.sidebar .createAccountBusiness {
+    background: #EFEFEF;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    height: 64px;
+    padding-top: 20px;
+    
+    border-radius: 0px 0px 8px 8px;  
+
+    border:#EFEFEF solid ;
+    cursor: pointer;
+}
+
+div.error {
+    color: rgb(252, 0, 0);
+    /* font-size: 42px; */
+    align-items: center;
+}

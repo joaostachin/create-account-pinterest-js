@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest - Brasil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <div>
+            <div class="logo">
+                <img src="" alt="" srcset="">
+            </div>
+            <div class="sidebar">
+                <img src="./logo.png" alt="" srcset="">
+                <h3>Welcome to Pinterest</h3>
+                    <div class="paragraph1">
+                        <p>Find new ideas to try</p>
+                    </div>
+                <form id="register-form">
+                    <div class="half-box">
+                        <input class="inputs" type="e-mail" name="email" placeholder="Email" id="email" data-min-length="6" data-required>
+                    </div>
+                    <div class="half-box">
+                        <input class="inputs" type="password" name="password" placeholder="Create a password" id="senha" data-max-length="6">
+                    </div>
+                    <div class="half-box">
+                        <input class="inputs" type="text" name="idade" placeholder="Age" id="idade">
+                    </div>  
+                </form>
+                <div class="btnSubtmit">
+                    <input type="submit" id="btn-submit" value="Continue">
+                </div>
+                <div class="textOr">
+                    <h4>OR</h4>
+                </div>
+                <div class="btnContinue">
+                    <input type="submit" id="btn-submit" value="Continue with Facebook" >
+                </div>
+                <div class="textEnd1">
+                    <p>By continuing, you agree to Pinterest's <b>Terms of Service, Privacy policy.</b></p>
+                </div>
+                <div class="textEnd2">
+                    <p><b>Already a member? Log in</b></p>
+                </div>
+                <div class="createAccountBusiness">
+                    <h2>Create a Business account</h2>
+                </div>
+            </div>
+            <div id="error">
+                <p class="error-validation template"></p>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
